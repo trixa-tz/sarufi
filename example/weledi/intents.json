@@ -1,0 +1,61 @@
+{
+    "salamu": [
+        "Habari",
+        "Mambo",
+        "Hi",
+        "Hello",
+        "Niaje",
+        "Shikamoo",
+        "Habari za asubuhi",
+        "Karibu"
+    ],
+    "kozi": [
+        "kozi",
+        "nataka kozi",
+        "kozi zipi zipo",
+        "nataka kujisajili",
+        "nataka kusoma",
+        "jisajili",
+        "nunua kozi",
+        "nataka kulipia kozi",
+        "lipa kozi",
+        "enroll",
+        "register for a course",
+        "available courses",
+        "what courses do you offer",
+        "I want to buy a course"
+    ],
+    "kozi_zangu": [
+        "kozi zangu",
+        "my courses",
+        "maendeleo yangu",
+        "nimejisajili kozi zipi",
+        "my progress",
+        "progress yangu"
+    ],
+    "msaada": [
+        "msaada",
+        "nisaidie",
+        "naomba msaada",
+        "sielewi",
+        "help",
+        "what can you do",
+        "unaweza nini"
+    ],
+    "shukrani": [
+        "asante",
+        "ahsante",
+        "nashukuru",
+        "asante sana",
+        "thanks",
+        "thank you"
+    ],
+    "kwaheri": [
+        "kwaheri",
+        "tutaonana",
+        "baadaye",
+        "bye",
+        "goodbye",
+        "see you"
+    ]
+}

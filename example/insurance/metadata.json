@@ -1,0 +1,6 @@
+{
+    "name": "My Insurance Bot",
+    "description": "A conversational bot that helps you buy and manage insurance",
+    "industry": "insurance",
+    "visible_on_community": false
+}

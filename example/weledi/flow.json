@@ -1,0 +1,135 @@
+{
+    "salamu": {
+        "message": [
+            "Habari! Karibu Weledi",
+            "Mimi ni msaidizi wako wa kujiunga na kozi na kulipia.",
+            "Andika 'kozi' kuona kozi zinazopatikana."
+        ],
+        "next_state": "end"
+    },
+    "msaada": {
+        "message": [
+            "Ninaweza kukusaidia na haya:",
+            "Andika 'kozi' kuona na kujiunga na kozi",
+            "Andika 'kozi zangu' kuona kozi ulizojisajili",
+            "Anza kwa kuandika 'kozi'."
+        ],
+        "next_state": "end"
+    },
+    "shukrani": {
+        "message": [
+            "Karibu sana! Nipo hapa kukusaidia."
+        ],
+        "next_state": "end"
+    },
+    "kwaheri": {
+        "message": [
+            "Kwaheri! Karibu tena Weledi. Soma kwa bidii!"
+        ],
+        "next_state": "end"
+    },
+    "kozi_zangu": {
+        "message": [
+            "Hizi ni kozi zako:",
+            "Hisabati - Kidato cha 4 (inaendelea)",
+            "Endelea kusoma, unafanya vizuri!"
+        ],
+        "next_state": "end"
+    },
+    "kozi": {
+        "message": [
+            "Karibu! Nitakusaidia kujiunga na kozi.",
+            "Tafadhali niambie jina lako."
+        ],
+        "next_state": "pata_jina"
+    },
+    "pata_jina": {
+        "message": [
+            "Asante {name}! Hizi ni kozi zinazopatikana:",
+            "1. Hisabati - Kidato cha 4   (TZS 10,000)",
+            "2. Fizikia - Kidato cha 4   (TZS 10,000)",
+            "3. Kiingereza cha Biashara   (TZS 15,000)",
+            "Chagua namba ya kozi unayotaka."
+        ],
+        "next_state": "chagua_kozi"
+    },
+    "chagua_kozi": {
+        "1": "kozi_hisabati",
+        "2": "kozi_fizikia",
+        "3": "kozi_kiingereza"
+    },
+    "kozi_hisabati": {
+        "message": [
+            "Umechagua: Hisabati - Kidato cha 4",
+            "Gharama: TZS 10,000",
+            "Chagua njia ya malipo:",
+            "1. M-Pesa",
+            "2. Mixx by Yas (Tigo Pesa)",
+            "3. Airtel Money"
+        ],
+        "next_state": "chagua_malipo"
+    },
+    "kozi_fizikia": {
+        "message": [
+            "Umechagua: Fizikia - Kidato cha 4",
+            "Gharama: TZS 10,000",
+            "Chagua njia ya malipo:",
+            "1. M-Pesa",
+            "2. Mixx by Yas (Tigo Pesa)",
+            "3. Airtel Money"
+        ],
+        "next_state": "chagua_malipo"
+    },
+    "kozi_kiingereza": {
+        "message": [
+            "Umechagua: Kiingereza cha Biashara",
+            "Gharama: TZS 15,000",
+            "Chagua njia ya malipo:",
+            "1. M-Pesa",
+            "2. Mixx by Yas (Tigo Pesa)",
+            "3. Airtel Money"
+        ],
+        "next_state": "chagua_malipo"
+    },
+    "chagua_malipo": {
+        "1": "malipo_mpesa",
+        "2": "malipo_tigo",
+        "3": "malipo_airtel"
+    },
+    "malipo_mpesa": {
+        "message": [
+            "Umechagua M-Pesa.",
+            "Ingiza namba yako ya simu (mfano: 0754 123 456)."
+        ],
+        "next_state": "ingiza_namba"
+    },
+    "malipo_tigo": {
+        "message": [
+            "Umechagua Mixx by Yas.",
+            "Ingiza namba yako ya simu (mfano: 0654 123 456)."
+        ],
+        "next_state": "ingiza_namba"
+    },
+    "malipo_airtel": {
+        "message": [
+            "Umechagua Airtel Money.",
+            "Ingiza namba yako ya simu (mfano: 0784 123 456)."
+        ],
+        "next_state": "ingiza_namba"
+    },
+    "ingiza_namba": {
+        "message": [
+            "Asante! Tumetuma ombi la malipo kwenye simu yako",
+            "Ingiza PIN yako kukamilisha, kisha andika 'thibitisha'."
+        ],
+        "next_state": "thibitisha_malipo"
+    },
+    "thibitisha_malipo": {
+        "message": [
+            "Malipo yamekamilika!",
+            "Hongera, umejiunga na kozi kikamilifu.",
+            "Andika 'kozi zangu' kuona kozi zako au 'kwaheri' kumaliza."
+        ],
+        "next_state": "end"
+    }
+}

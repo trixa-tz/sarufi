@@ -1,0 +1,2 @@
+# Repo-only files that don't belong in the published package.
+.github/
